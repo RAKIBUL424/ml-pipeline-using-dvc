@@ -16,3 +16,21 @@ stages:
       md5: 58b8000f22d0825d0a3e5ca09a312c83.dir
       size: 490182
       nfiles: 2
+  data_preprocessing:
+    cmd: python src/data_preprocessing.py
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: 58b8000f22d0825d0a3e5ca09a312c83.dir
+      size: 490182
+      nfiles: 2
+    - path: src/data_preprocessing.py
+      hash: md5
+      md5: 748cc4d7280056bd5179d8a6903fd642
+      size: 2793
+    outs:
+    - path: data/interim
+      hash: md5
+      md5: 2a4da2429c9222a71925f7c8b4ece922.dir
+      size: 268272
+      nfiles: 2
