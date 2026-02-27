@@ -14,3 +14,22 @@ stages:
     - src/data_preprocessing.py
     outs:
     - data/interim
+  feature_engg:
+    cmd: python src/feature_engg.py
+    deps:
+    - data/interim
+    - src/feature_engg.py
+    params:
+    - feature_engg.max_features
+    outs:
+    - data/processed
+  model_building:
+    cmd: python src/model_building.py
+    deps:
+    - data/processed
+    - src/model_building.py
+    params:
+    - model_building.n_estimators
+    - model_building.random_state
+    outs:
+    - models/model.pkl

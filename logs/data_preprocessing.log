@@ -1,0 +1,10 @@
+2026-02-26 22:53:29,861 - data_preprocessing - DEBUG - Data loaded successfully
+2026-02-26 22:53:29,861 - data_preprocessing - DEBUG - Starting preprocessing of dataframe
+2026-02-26 22:53:29,869 - data_preprocessing - DEBUG - Label encoding completed
+2026-02-26 22:53:29,878 - data_preprocessing - DEBUG - Duplicates removed from dataframe
+2026-02-26 22:53:43,509 - data_preprocessing - DEBUG - Text transformation completed
+2026-02-26 22:53:43,509 - data_preprocessing - DEBUG - Starting preprocessing of dataframe
+2026-02-26 22:53:43,509 - data_preprocessing - DEBUG - Label encoding completed
+2026-02-26 22:53:43,560 - data_preprocessing - DEBUG - Duplicates removed from dataframe
+2026-02-26 22:53:46,384 - data_preprocessing - DEBUG - Text transformation completed
+2026-02-26 22:53:46,417 - data_preprocessing - DEBUG - Preprocessed data saved successfully : ./data\interim

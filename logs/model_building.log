@@ -1,0 +1,6 @@
+2026-02-27 16:34:19,513 - model_building - DEBUG - Parameters loaded successfully from params.yaml
+2026-02-27 16:34:19,533 - model_building - DEBUG - Data loaded successfully from data/processed/train_tfidf.csv with shape (4194, 36)
+2026-02-27 16:34:19,564 - model_building - DEBUG - Training model with parameters: {'n_estimators': 22, 'random_state': 2}
+2026-02-27 16:34:19,564 - model_building - DEBUG - Model training started with 4194 samples
+2026-02-27 16:34:19,707 - model_building - DEBUG - Model training completed successfully
+2026-02-27 16:34:19,713 - model_building - DEBUG - Model saved successfully to models/model.pkl

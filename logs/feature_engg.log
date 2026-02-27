@@ -1,0 +1,15 @@
+2026-02-27 16:23:58,031 - feature_engg - DEBUG - Parameters loaded successfully from ./params.yaml
+2026-02-27 16:23:58,031 - feature_engg - INFO - Loading data from ./data/interim/train_preprocessed.csv
+2026-02-27 16:23:58,071 - feature_engg - DEBUG - Data loaded successfully with shape (4194, 2)
+2026-02-27 16:23:58,071 - feature_engg - INFO - Loading data from ./data/interim/test_preprocessed.csv
+2026-02-27 16:23:58,087 - feature_engg - DEBUG - Data loaded successfully with shape (1115, 3)
+2026-02-27 16:23:58,152 - feature_engg - ERROR - Error applying TF-IDF: 'label'
+2026-02-27 16:23:58,152 - feature_engg - ERROR - Error in main function: cannot unpack non-iterable NoneType object
+2026-02-27 16:33:40,465 - feature_engg - DEBUG - Parameters loaded successfully from ./params.yaml
+2026-02-27 16:33:40,466 - feature_engg - INFO - Loading data from ./data/interim/train_preprocessed.csv
+2026-02-27 16:33:40,483 - feature_engg - DEBUG - Data loaded successfully with shape (4194, 2)
+2026-02-27 16:33:40,483 - feature_engg - INFO - Loading data from ./data/interim/test_preprocessed.csv
+2026-02-27 16:33:40,488 - feature_engg - DEBUG - Data loaded successfully with shape (1115, 3)
+2026-02-27 16:33:40,563 - feature_engg - DEBUG - TF-IDF applied successfully with max_features=35
+2026-02-27 16:33:40,691 - feature_engg - DEBUG - Data saved successfully to ./data\processed\train_tfidf.csv
+2026-02-27 16:33:40,724 - feature_engg - DEBUG - Data saved successfully to ./data\processed\test_tfidf.csv

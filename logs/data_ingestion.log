@@ -1,0 +1,4 @@
+2026-02-26 22:53:24,495 - data_ingestion - DEBUG - Parameters received from params.yaml
+2026-02-26 22:53:24,527 - data_ingestion - DEBUG - Data loaded from notebooks\spam.csv
+2026-02-26 22:53:24,551 - data_ingestion - DEBUG - Data preprocessing complete
+2026-02-26 22:53:24,581 - data_ingestion - DEBUG - Train and test data save to data\raw

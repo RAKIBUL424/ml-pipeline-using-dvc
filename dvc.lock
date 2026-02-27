@@ -34,3 +34,45 @@ stages:
       md5: 2a4da2429c9222a71925f7c8b4ece922.dir
       size: 268272
       nfiles: 2
+  feature_engg:
+    cmd: python src/feature_engg.py
+    deps:
+    - path: data/interim
+      hash: md5
+      md5: 2a4da2429c9222a71925f7c8b4ece922.dir
+      size: 268272
+      nfiles: 2
+    - path: src/feature_engg.py
+      hash: md5
+      md5: e386241a06c50215ab73bacf787d26bf
+      size: 3293
+    params:
+      params.yaml:
+        feature_engg.max_features: 35
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: feb4c6be646d58d43629f9d89e77ef87.dir
+      size: 843448
+      nfiles: 2
+  model_building:
+    cmd: python src/model_building.py
+    deps:
+    - path: data/processed
+      hash: md5
+      md5: feb4c6be646d58d43629f9d89e77ef87.dir
+      size: 843448
+      nfiles: 2
+    - path: src/model_building.py
+      hash: md5
+      md5: 1715558ff79adc97b89b9fe63469e36d
+      size: 3025
+    params:
+      params.yaml:
+        model_building.n_estimators: 22
+        model_building.random_state: 2
+    outs:
+    - path: models/model.pkl
+      hash: md5
+      md5: 1fdca75602830d88b8b7acebdab7fc15
+      size: 733596
